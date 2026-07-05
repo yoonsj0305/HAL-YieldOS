@@ -222,11 +222,17 @@ class ReportWriter:
                 html_p = base / "report.html"
                 if html_p.exists():
                     _html_pw = html_p.read_text(encoding="utf-8")
-                    _metric_rows_pw = "".join(
-                        f"<tr><td><code>{_esc(m)}</code></td>"
-                        f"<td>{'<span style=\"color:#388e3c\">available</span>' if m in _avail_set_pw else '<span style=\"color:#b71c1c\">no data</span>'}</td></tr>"
-                        for m in _WATCHED_METRICS_PW
-                    )
+                    _metric_rows_pw_parts = []
+                    for m in _WATCHED_METRICS_PW:
+                        _status_pw = (
+                            '<span style="color:#388e3c">available</span>'
+                            if m in _avail_set_pw
+                            else '<span style="color:#b71c1c">no data</span>'
+                        )
+                        _metric_rows_pw_parts.append(
+                            f"<tr><td><code>{_esc(m)}</code></td><td>{_status_pw}</td></tr>"
+                        )
+                    _metric_rows_pw = "".join(_metric_rows_pw_parts)
                     _semi_conf_html = (
                         '<div class="semi-confidence-section" style="background:#e3f2fd;border:1px solid #90caf9;'
                         'padding:12px;border-radius:6px;margin:12px 0;">'
