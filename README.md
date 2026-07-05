@@ -292,4 +292,4 @@ If you use HAL YieldOS in research or publications, please cite using [CITATION.
 
 ---
 
-*HAL YieldOS v3.0.11 — Grove: 팀 출력이 시스템 출력이다. Musk: 먼저 삭제하라. Matsushita: 사람이 먼저다.*
+*HAL YieldOS v3.0.11 — Read-only Functional Yield evidence for human review.*
