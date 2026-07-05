@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: HAL YieldOS Documentation
+    url: https://github.com/yoonsj0305/HAL-YieldOS/tree/main/docs
+    about: Read the docs before opening an issue.

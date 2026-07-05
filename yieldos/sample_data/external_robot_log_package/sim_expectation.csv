@@ -1,0 +1,2 @@
+task_id,sim_expected_success,expected_payload_kg,expected_surface_type,expected_lighting_lux,expected_floor_condition,expected_max_joint_torque_Nm,expected_max_force_sensor_N,expected_min_gripper_force_N
+task_arm_motion_087,true,4.0,rubber_mat,450,clean,35.0,200.0,40.0

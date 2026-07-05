@@ -1,0 +1,16 @@
+{
+  "schema": "hal.yieldos.pilot.semiforge.routing_constraints.v1",
+  "steps": [
+    {"step_id": "litho", "type": "lithography", "order": 1},
+    {"step_id": "etch", "type": "etch", "order": 2},
+    {"step_id": "cvd", "type": "deposition", "order": 3},
+    {"step_id": "cmp", "type": "planarization", "order": 4},
+    {"step_id": "inspect", "type": "metrology", "order": 5}
+  ],
+  "constraints": [
+    {"from": "litho", "to": "etch", "constraint": "must_follow_within_4h"},
+    {"from": "etch", "to": "inspect", "constraint": "required_before_cvd"},
+    {"from": "cvd", "to": "cmp", "constraint": "must_follow_within_8h"}
+  ],
+  "notes": "Generic routing constraints — proprietary recipe parameters normalized."
+}

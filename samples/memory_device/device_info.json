@@ -1,0 +1,17 @@
+{
+  "device_id": "memdev_01",
+  "memory_type": "nand_flash_simulated",
+  "raw_capacity_gb": 128,
+  "block_size_gb": 1,
+  "ecc_policy": {
+    "corrected_error_warning_threshold": 100,
+    "uncorrectable_error_fail_threshold": 1
+  },
+  "endurance_policy": {
+    "pe_cycle_warning_ratio": 0.8,
+    "pe_cycle_fail_ratio": 0.95
+  },
+  "retention_policy": {
+    "min_retention_hours": 72
+  }
+}

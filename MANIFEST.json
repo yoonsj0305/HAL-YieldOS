@@ -1,0 +1,107 @@
+{
+  "name": "hal-yieldos",
+  "version": "3.0.11",
+  "release_name": "HAL-YieldOS-v3.0.11-poc-release",
+  "release_type": "poc-mvp",
+  "checksummed_file_count": 393,
+  "zip_entry_count": 395,
+  "file_count_kind": "checksummed_source_files",
+  "generated_release_files": [
+    "MANIFEST.json",
+    "CHECKSUMS.sha256"
+  ],
+  "excluded_artifact_patterns": [
+    "build/",
+    "dist/",
+    "output/",
+    "outputs/",
+    "artifacts/",
+    ".pytest_tmp/",
+    ".pytest_cache/",
+    ".ruff_cache/",
+    "__pycache__/",
+    ".mypy_cache/",
+    "*.pyc",
+    "*.whl",
+    "*.tar.gz",
+    "*.zip",
+    "dist_v*/",
+    "*.egg-info/"
+  ],
+  "created_at": "2026-07-04T14:01:28.699132+00:00",
+  "python_requires": ">=3.10",
+  "entrypoint": "yieldos",
+  "safety": {
+    "read_only": true,
+    "hardware_execution_enabled": false,
+    "candidate_only_rca": true,
+    "shadow_only": true,
+    "human_review_required": true
+  },
+  "domains": [
+    "robot",
+    "space",
+    "semiconductor",
+    "semiforge",
+    "memory"
+  ],
+  "canonical_domains": [
+    "robot",
+    "space",
+    "semiconductor",
+    "semiforge",
+    "memory"
+  ],
+  "domain_adapters": {
+    "robot": "robotics",
+    "space": "satellite",
+    "semiconductor": "semiconductor_fab",
+    "semiforge": "semiforge_crossbar",
+    "memory": "memory_device"
+  },
+  "domain_aliases": {
+    "satellite": "space",
+    "satguard": "space",
+    "sat": "space",
+    "semfab": "semiconductor",
+    "edge_ai": "semiconductor",
+    "dark_cell": "semiforge"
+  },
+  "domain_extra_outputs": {
+    "memory": [
+      "memory_functional_capacity.json",
+      "memory_data_placement_recommendation.json",
+      "memory_bad_block_evidence_map.json"
+    ]
+  },
+  "optional_layers": [
+    "sqbm",
+    "scheduler"
+  ],
+  "standard_output_bundle": [
+    "state_snapshot.json",
+    "evidence_pack.json",
+    "ooda_frame.json",
+    "recovery_candidates.json",
+    "report.md",
+    "report.html",
+    "input_validation.json",
+    "decision_readiness_report.json",
+    "functional_yield_scorecard.json",
+    "functional_binning_result.json",
+    "functional_passport.json",
+    "evidence_pack.md",
+    "recovery_route_report.json",
+    "failure_scenario_record.json",
+    "next_data_request.json",
+    "analysis_trace.json",
+    "source_data_manifest.json",
+    "data_quality_report.json",
+    "evidence_conflict_report.json",
+    "baseline_vs_yieldos.json",
+    "business_case_summary.json",
+    "case_manifest.json"
+  ],
+  "causal_claim_boundary": "candidate_only_not_certified_cause",
+  "note": "sample-validated PoC/MVP - not certified for real production systems"
+}

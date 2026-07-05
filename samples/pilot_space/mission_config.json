@@ -1,0 +1,15 @@
+{
+  "schema": "hal.yieldos.pilot.space.mission_config.v1",
+  "mission_id": "MISSION_GENERIC_001",
+  "orbit_type": "LEO_SSO",
+  "design_life_years": 5,
+  "power_budget_w": 50.0,
+  "thermal_limits_c": {
+    "min_operational": -20.0,
+    "max_operational": 60.0,
+    "min_survival": -40.0,
+    "max_survival": 80.0
+  },
+  "attitude_accuracy_deg": 0.5,
+  "notes": "Sample anonymized mission config for YieldOS pilot demonstration."
+}

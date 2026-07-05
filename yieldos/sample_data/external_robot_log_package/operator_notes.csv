@@ -1,0 +1,3 @@
+timestamp,operator_id_hash,robot_id,task_id,note_type,note_text_redacted,redaction_status,contains_personal_data,suspected_signal,observed_context,confidence
+2024-03-15 10:16:00,op_hash_b8f2,robot_02,task_arm_motion_087,operator_observation,[REDACTED: gripper slipping on rubber mat during lift phase],demo_safe,false,grip_instability_on_rubber_mat,payload_arm_extension_phase,0.7
+2024-03-15 10:19:00,op_hash_b8f2,robot_02,task_arm_motion_087,operator_observation,[REDACTED: joint torque exceeded expected range near payload contact],demo_safe,false,joint_torque_overrun,payload_contact_point,0.65

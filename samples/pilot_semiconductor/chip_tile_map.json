@@ -1,0 +1,29 @@
+{
+  "schema": "hal.yieldos.semiconductor.chip_tile_map.v1",
+  "chip_id": "chip_demo_001",
+  "grid": {
+    "width": 4,
+    "height": 4
+  },
+  "tiles": [
+    {"tile_id": "T_0_0", "x": 0, "y": 0, "status": "usable", "confidence": 0.95, "evidence_refs": ["test_results.csv:die_001"], "temp_risk": 0.08, "latency_penalty": 0.04, "power_penalty": 0.05},
+    {"tile_id": "T_1_0", "x": 1, "y": 0, "status": "usable", "confidence": 0.93, "evidence_refs": ["test_results.csv:die_002"], "temp_risk": 0.09, "latency_penalty": 0.05, "power_penalty": 0.06},
+    {"tile_id": "T_2_0", "x": 2, "y": 0, "status": "usable", "confidence": 0.91, "evidence_refs": ["test_results.csv:die_003"], "temp_risk": 0.10, "latency_penalty": 0.05, "power_penalty": 0.06},
+    {"tile_id": "T_3_0", "x": 3, "y": 0, "status": "defective", "confidence": 0.12, "evidence_refs": ["test_results.csv:die_004"], "temp_risk": 0.85, "latency_penalty": 0.90, "power_penalty": 0.88},
+    {"tile_id": "T_0_1", "x": 0, "y": 1, "status": "weak", "confidence": 0.68, "evidence_refs": ["test_results.csv:die_005"], "temp_risk": 0.25, "latency_penalty": 0.30, "power_penalty": 0.28},
+    {"tile_id": "T_1_1", "x": 1, "y": 1, "status": "weak", "confidence": 0.65, "evidence_refs": ["test_results.csv:die_006"], "temp_risk": 0.28, "latency_penalty": 0.32, "power_penalty": 0.30},
+    {"tile_id": "T_2_1", "x": 2, "y": 1, "status": "usable", "confidence": 0.92, "evidence_refs": ["test_results.csv:die_007"], "temp_risk": 0.09, "latency_penalty": 0.04, "power_penalty": 0.05},
+    {"tile_id": "T_3_1", "x": 3, "y": 1, "status": "defective", "confidence": 0.02, "evidence_refs": ["test_results.csv:die_008"], "temp_risk": 0.95, "latency_penalty": 0.98, "power_penalty": 0.96},
+    {"tile_id": "T_0_2", "x": 0, "y": 2, "status": "usable", "confidence": 0.94, "evidence_refs": ["test_results.csv:die_009"], "temp_risk": 0.07, "latency_penalty": 0.04, "power_penalty": 0.05},
+    {"tile_id": "T_1_2", "x": 1, "y": 2, "status": "usable", "confidence": 0.93, "evidence_refs": ["test_results.csv:die_010"], "temp_risk": 0.08, "latency_penalty": 0.05, "power_penalty": 0.05},
+    {"tile_id": "T_2_2", "x": 2, "y": 2, "status": "weak", "confidence": 0.70, "evidence_refs": ["test_results.csv:die_011"], "temp_risk": 0.22, "latency_penalty": 0.28, "power_penalty": 0.25},
+    {"tile_id": "T_3_2", "x": 3, "y": 2, "status": "defective", "confidence": 0.15, "evidence_refs": ["test_results.csv:die_012"], "temp_risk": 0.80, "latency_penalty": 0.85, "power_penalty": 0.82},
+    {"tile_id": "T_0_3", "x": 0, "y": 3, "status": "unknown", "confidence": 0.40, "evidence_refs": ["test_results.csv:die_013"], "temp_risk": 0.50, "latency_penalty": 0.50, "power_penalty": 0.50},
+    {"tile_id": "T_1_3", "x": 1, "y": 3, "status": "unknown", "confidence": 0.35, "evidence_refs": ["test_results.csv:die_014"], "temp_risk": 0.55, "latency_penalty": 0.55, "power_penalty": 0.55},
+    {"tile_id": "T_2_3", "x": 2, "y": 3, "status": "weak", "confidence": 0.62, "evidence_refs": ["test_results.csv:die_015"], "temp_risk": 0.30, "latency_penalty": 0.35, "power_penalty": 0.32},
+    {"tile_id": "T_3_3", "x": 3, "y": 3, "status": "weak", "confidence": 0.60, "evidence_refs": ["test_results.csv:die_016"], "temp_risk": 0.32, "latency_penalty": 0.36, "power_penalty": 0.34}
+  ],
+  "human_review_required": true,
+  "hardware_control_enabled": false,
+  "claim_boundary": "candidate_tile_map_not_physical_repair"
+}

@@ -1,0 +1,9 @@
+timestamp,reviewer_id_hash,lot_id,wafer_id,note_type,note_text
+2024-03-01T13:00:00Z,reviewer_hash_001,lot_demo,wafer_demo_08,anomaly_note,chamber_hash_D shows elevated temperature and pressure anomaly during dep_001 step. candidate investigation needed.
+2024-03-01T13:05:00Z,reviewer_hash_001,lot_demo,wafer_demo_16,anomaly_note,chamber_hash_F CMP endpoint signal degraded. surface_height out of spec by 2.2nm.
+2024-03-01T13:10:00Z,reviewer_hash_002,lot_demo,wafer_demo_08,missing_data_note,wafer_demo_08 and wafer_demo_16 lack frequency and margin data for die_013 to die_020 subset due to early test stop.
+2024-03-01T13:15:00Z,reviewer_hash_001,lot_demo,wafer_demo_01,inspection_note,die_004 and die_008 confirmed high leakage bins. Edge region hypothesis consistent with etch uniformity variation in chamber_hash_A vs chamber_hash_B.
+2024-03-01T13:20:00Z,reviewer_hash_003,lot_demo,wafer_demo_01,candidate_valid_condition_note,Core region dies (die_001 to die_003 and die_007) candidate for low_power_compute role under same lot and chamber conditions.
+2024-03-01T14:00:00Z,reviewer_hash_002,lot_demo,wafer_demo_01,process_engineer_note,Cross-chamber variation between chamber_hash_A and chamber_hash_B within etch_001 step shows candidate signal. Not yet root cause.
+2024-03-01T14:05:00Z,reviewer_hash_003,lot_demo,wafer_demo_16,missing_data_note,chip_tile_map not yet available for wafer_demo_16. Recovery Compiler intake cannot be set to READY without tile map.
+2024-03-01T14:10:00Z,reviewer_hash_001,lot_demo,wafer_demo_08,operator_observation,CMP pressure anomaly on chamber_hash_F correlates with bin_code 4 failures on wafer_demo_16. Candidate correlation only.

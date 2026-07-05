@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "HAL YieldOS"
+message: "If you use this software or concepts from it in research or publications, please cite it as below."
+type: software
+authors:
+  - family-names: "Yoon"
+    given-names: "Seojun"
+    email: "yoonsj0305@gmail.com"
+version: "3.0.11"
+license: "LicenseRef-Proprietary-Evaluation-Only"
+repository-code: "https://github.com/yoonsj0305/HAL-YieldOS"
+url: "https://github.com/yoonsj0305/HAL-YieldOS"
+date-released: "2026-07-04"
+abstract: >
+  HAL YieldOS is a read-only Functional Yield Evidence Layer for imperfect industrial systems.
+  It converts sanitized industrial telemetry into evidence-backed Functional Passports,
+  EvidencePacks, Decision Readiness Reports, and Recovery Compiler intake artifacts for
+  human review and AI-assisted decision workflows. It does not control hardware, certify
+  root causes, guarantee yield, or execute recovery profiles.
+keywords:
+  - functional yield
+  - industrial evidence
+  - semiconductor
+  - robot
+  - satellite
+  - memory
+  - read-only analysis
+  - human review
+  - evidence-based decision support
+  - candidate-only outputs
+  - Recovery Compiler intake
+preferred-citation:
+  type: software
+  title: "HAL YieldOS: Read-only Functional Yield Evidence Layer"
+  authors:
+    - family-names: "Yoon"
+      given-names: "Seojun"
+  version: "3.0.11"
+  url: "https://github.com/yoonsj0305/HAL-YieldOS"
+  year: 2026

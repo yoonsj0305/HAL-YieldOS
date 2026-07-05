@@ -1,0 +1,29 @@
+{
+  "schema": "hal.yieldos.pilot.semiforge.workload_roles.v1",
+  "roles": [
+    {
+      "role_id": "high_performance",
+      "description": "Full-speed operation — zero defects tolerated",
+      "max_defects_per_die": 0,
+      "required_functional": true
+    },
+    {
+      "role_id": "standard",
+      "description": "Standard operation — single non-critical particle tolerated",
+      "max_defects_per_die": 1,
+      "required_functional": true
+    },
+    {
+      "role_id": "reduced_performance",
+      "description": "Reduced speed / partial function — up to 2 non-critical defects",
+      "max_defects_per_die": 2,
+      "required_functional": false
+    },
+    {
+      "role_id": "discard",
+      "description": "Functional yield too low — discard or repurpose",
+      "max_defects_per_die": 999,
+      "required_functional": false
+    }
+  ]
+}

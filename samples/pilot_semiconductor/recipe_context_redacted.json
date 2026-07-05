@@ -1,0 +1,30 @@
+{
+  "schema": "hal.yieldos.semiconductor.recipe_context_redacted.v1",
+  "lot_id": "lot_demo",
+  "steps": [
+    {
+      "step_id": "etch_001",
+      "recipe_id_redacted": "recipe_hash_001",
+      "process_family": "dry_etch",
+      "sensitive_recipe_values_removed": true,
+      "claim_boundary": "redacted_context_not_recipe_control"
+    },
+    {
+      "step_id": "dep_001",
+      "recipe_id_redacted": "recipe_hash_002",
+      "process_family": "cvd_deposition",
+      "sensitive_recipe_values_removed": true,
+      "claim_boundary": "redacted_context_not_recipe_control"
+    },
+    {
+      "step_id": "cmp_001",
+      "recipe_id_redacted": "recipe_hash_004",
+      "process_family": "chemical_mechanical_planarization",
+      "sensitive_recipe_values_removed": true,
+      "claim_boundary": "redacted_context_not_recipe_control"
+    }
+  ],
+  "claim_boundary": "redacted_context_not_recipe_control",
+  "human_review_required": true,
+  "hardware_control_enabled": false
+}

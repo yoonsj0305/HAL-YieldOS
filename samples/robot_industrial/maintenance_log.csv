@@ -1,0 +1,11 @@
+timestamp,event_type,component,action_taken,technician_id,outcome
+2024-03-01T06:00:00Z,scheduled,joint_2_bearing,lubrication and visual inspection,tech_A1,complete
+2024-03-01T07:30:00Z,calibration,end_effector,position calibration run,tech_A1,complete
+2024-03-05T14:22:00Z,unscheduled,joint_2_bearing,investigated vibration alert — no action,tech_B2,complete
+2024-03-08T06:00:00Z,scheduled,all_joints,scheduled PM — lubrication cycle,tech_A1,complete
+2024-03-12T09:15:00Z,unscheduled,joint_2_bearing,abnormal temperature detected — bearing inspection,tech_C3,partial
+2024-03-12T11:00:00Z,unscheduled,joint_2_bearing,bearing replacement deferred pending parts,tech_C3,deferred
+2024-03-15T06:00:00Z,scheduled,controller,firmware version check and log pull,tech_A1,complete
+2024-03-18T13:45:00Z,unscheduled,joint_2_bearing,emergency inspection — high temperature fault,tech_B2,complete
+2024-03-19T08:00:00Z,unscheduled,joint_2_bearing,bearing replaced,tech_C3,complete
+2024-03-19T10:00:00Z,calibration,end_effector,post-maintenance calibration,tech_A1,complete

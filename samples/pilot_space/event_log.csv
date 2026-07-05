@@ -1,0 +1,7 @@
+timestamp_utc,event_type,subsystem,severity,description
+2024-01-15T10:02:15Z,anomaly,power,high,Battery SOC dropped below 70% during eclipse. Solar array output degraded.
+2024-01-15T10:05:00Z,safe_mode_entry,obc,critical,Spacecraft entered safe mode due to power anomaly. Non-essential loads shed.
+2024-01-15T10:05:01Z,fault_protection,attitude_control,high,ACS thrusters deactivated in safe mode. Attitude error growing.
+2024-01-15T11:30:00Z,recovery_attempt,power,medium,Solar array partial recovery. Battery charging resumed.
+2024-01-15T13:00:00Z,safe_mode_exit,obc,info,Safe mode exited. Normal operations resuming.
+2024-01-15T13:05:00Z,nominal_restored,attitude_control,info,ACS reactivated. Attitude error reducing.

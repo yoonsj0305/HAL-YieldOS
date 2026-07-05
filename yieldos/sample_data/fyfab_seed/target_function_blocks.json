@@ -1,0 +1,23 @@
+{
+  "schema": "hal.yieldos.fyfab.target_function_blocks.v1",
+  "case_id": "fyfab_seed_demo",
+  "target_blocks": [
+    {
+      "block_id": "logic_tile_a",
+      "required_cell_count": 24,
+      "minimum_average_conductivity": 0.7,
+      "maximum_average_leakage": 0.25,
+      "minimum_stability": 0.65,
+      "role": "low_power_logic_candidate"
+    },
+    {
+      "block_id": "routing_lane_a",
+      "required_cell_count": 16,
+      "minimum_average_conductivity": 0.75,
+      "maximum_average_leakage": 0.3,
+      "minimum_stability": 0.6,
+      "role": "routing_candidate"
+    }
+  ],
+  "claim_boundary": "simulation_only_not_physical_design_certification"
+}

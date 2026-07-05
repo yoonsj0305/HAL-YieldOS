@@ -1,0 +1,28 @@
+{
+  "schema": "hal.yieldos.mission_profile.v1",
+  "mission_id": "cubesat_demo_01",
+  "platform": "3U CubeSat",
+  "orbit": "LEO 500km circular",
+  "inclination_deg": 97.4,
+  "orbital_period_min": 94.7,
+  "eclipse_fraction": 0.35,
+  "power_budget": {
+    "solar_nominal_W": 8.5,
+    "battery_capacity_Wh": 18.0,
+    "payload_peak_W": 4.2,
+    "housekeeping_W": 1.8
+  },
+  "operating_envelope": {
+    "battery_soc_min_pct": 20.0,
+    "battery_soc_max_pct": 95.0,
+    "bus_voltage_min_V": 22.0,
+    "bus_voltage_max_V": 28.0,
+    "temperature_min_C": -30.0,
+    "temperature_max_C": 80.0,
+    "attitude_error_max_deg": 2.0,
+    "comms_snr_min_dB": 5.0
+  },
+  "mission_phase": "nominal_ops",
+  "scenario": "progressive_panel_degradation",
+  "note": "Synthetic sample data. Not a real satellite mission."
+}

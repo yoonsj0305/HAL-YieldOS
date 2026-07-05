@@ -1,0 +1,1 @@
+wafer_id,lot_id,die_id,test_site,parametric_bin,leakage_nA,idsat_mA,vth_mV,pass_fail

@@ -1,0 +1,3 @@
+timestamp,technician_id_hash,robot_id,task_id,note_type,note_text_redacted,redaction_status,contains_personal_data,suspected_signal,observed_context,confidence
+2024-03-15 10:20:00,tech_hash_c7e1,robot_02,task_arm_motion_087,maintenance_observation,[REDACTED: gripper pads showing wear pattern consistent with repeated slip events],demo_safe,false,gripper_pad_wear_candidate,post_task_inspection,0.6
+2024-03-15 10:22:00,tech_hash_c7e1,robot_02,task_arm_motion_087,maintenance_observation,[REDACTED: joint motor temperature elevated above baseline at end of task sequence],demo_safe,false,motor_thermal_elevation_candidate,post_run_thermal_check,0.55

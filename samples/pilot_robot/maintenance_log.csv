@@ -1,0 +1,6 @@
+date,maintenance_type,component,outcome
+2024-01-08,scheduled_inspection,J4_bearing,nominal_within_spec
+2024-01-01,lubrication,all_joints,completed_no_issues
+2023-12-15,calibration,J1_J2_J3,recalibrated_positions_within_0.05_deg
+2023-12-01,part_replacement,J6_wrist_seal,replaced_due_to_wear
+2023-11-15,scheduled_inspection,all_joints,nominal

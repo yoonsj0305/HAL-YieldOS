@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hal-yieldos"
+version = "3.0.11"
+description = "HAL YieldOS -- Read-Only Industrial Evidence Engine for Semiconductor, Robot, Satellite, and Defect-Tolerant Computing Data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "LicenseRef-Proprietary-Evaluation-Only"
+license-files = ["LICENSE.txt"]
+keywords = ["yieldos", "semiconductor", "evidence", "read-only", "industrial", "satellite", "robot", "memory"]
+dependencies = []
+
+[project.scripts]
+yieldos = "yieldos.cli.main:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4", "build>=1.0", "pytest-timeout>=2.0"]
+sqbm = ["yieldos-sqbm", "torch>=2.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "--basetemp=.pytest_tmp -m 'not release_heavy and not installed_wheel and not packaging and not cli_e2e and not public_demo'"
+markers = [
+    "sqbm: tests that require the optional SQBM backend (deselect with -m 'not sqbm')",
+    "release_heavy: tests that build release archives or run full release validation",
+    "installed_wheel: tests that create virtualenvs, install wheels, or validate installed packages",
+    "packaging: tests that run python -m build or packaging metadata checks",
+    "cli_e2e: subprocess-based CLI end-to-end tests",
+    "public_demo: tests that run the full public demo script end-to-end",
+    "slow: slower tests that are not required in the default unit suite",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["yieldos*"]
+
+[tool.setuptools.package-data]
+"yieldos" = [
+  "MANIFEST.json",
+  "VERSION"
+]
+"yieldos.sample_data" = [
+  "**/*.csv",
+  "**/*.json",
+  "**/*.md"
+]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["__pycache__/*", "*.pyc", "*.pyo"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+exclude = ["build"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]

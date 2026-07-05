@@ -1,0 +1,2 @@
+task_id,sim_expected_success,expected_payload_kg,expected_surface_type,expected_lighting_lux,expected_floor_condition,expected_max_joint_torque_Nm,expected_max_force_sensor_N,expected_min_gripper_force_N
+task_payload_transport_042,true,5.0,smooth_metal,500,clean,40.0,210.0,38.0

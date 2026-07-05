@@ -1,0 +1,5 @@
+timestamp,operator_id,intervention_type,task_id,joint_affected,description,robot_stopped,intervention_outcome
+2024-01-15T08:02:30Z,OP_001,emergency_pause,TASK_001,J4,Slip detected on J4 during payload transfer. Operator paused cycle for inspection.,true,resumed_after_inspection
+2024-01-15T08:11:30Z,OP_002,speed_reduction,TASK_002,J4,Contact instability and slip on damp surface. Reduced J4 speed 20%.,false,continued_at_reduced_speed
+2024-01-15T09:15:00Z,OP_002,maintenance_request,TASK_002,J4,J4 position error trending above sim expectation. Maintenance requested.,false,maintenance_scheduled
+2024-01-15T14:00:00Z,OP_003,post_shift_review,ALL,ALL,End of shift review. J4 performance below sim baseline for TASK_002 on damp floor.,false,documented_for_engineering_review

@@ -1,0 +1,13 @@
+{
+  "schema": "hal.yieldos.demo.baseline_policy.v1",
+  "policy_name": "binary_block_health_policy",
+  "description": "Binary pass/fail on device-level health flags. Any runtime_bad or uncorrectable error triggers device FAIL regardless of how many blocks remain healthy.",
+  "rules": {
+    "max_runtime_bad_blocks": 0,
+    "max_uncorrectable_error_blocks": 0,
+    "max_at_risk_fraction": 0.10
+  },
+  "industry_context": "Many industrial QA systems apply a binary pass/fail on device health flags. Any runtime_bad flag triggers immediate device DISCARD. The remaining healthy block capacity is not examined.",
+  "yieldos_contrast": "YieldOS separates remaining capacity into functional zones (safe / approximate_cache / read_only_archive / discard) rather than applying a single pass/fail threshold to the whole device. This enables reclassification into appropriate use cases under human review.",
+  "binary_verdict_basis": "runtime_bad_count > max_runtime_bad_blocks OR uncorrectable_error_count > max_uncorrectable_error_blocks → device_fail"
+}

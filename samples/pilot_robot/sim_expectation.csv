@@ -1,0 +1,8 @@
+task_id,joint_id,expected_position_error_mm,tolerance_mm,expected_force_N,expected_cycle_time_s,expected_success_rate,sim_validated
+TASK_001,J1,0.30,0.20,50.0,4.5,0.98,true
+TASK_001,J4,0.50,0.25,55.0,4.5,0.96,true
+TASK_002,J1,1.50,0.50,40.0,6.2,0.94,true
+TASK_002,J4,2.00,0.75,50.0,6.2,0.91,true
+TASK_003,J1,0.20,0.10,35.0,3.8,0.99,true
+TASK_003,J4,0.40,0.15,45.0,3.8,0.97,true
+TASK_003,J6,0.15,0.08,38.0,3.8,0.99,true

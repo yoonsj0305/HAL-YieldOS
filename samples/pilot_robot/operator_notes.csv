@@ -1,0 +1,6 @@
+timestamp,operator_id,note_type,description
+2024-01-15T07:55:00Z,OP_001,pre_shift_check,All joints nominal at shift start. No alerts.
+2024-01-15T08:02:30Z,OP_001,fault_observation,J4 vibration elevated. Position error trending up. Monitoring.
+2024-01-15T09:15:00Z,OP_002,intervention,Reduced J4 speed 10% as precaution. Vibration still above baseline.
+2024-01-15T10:30:00Z,OP_002,maintenance_request,J4 bearing inspection requested for next maintenance window.
+2024-01-15T14:00:00Z,OP_003,post_shift_note,J4 continued elevated vibration throughout shift. Other joints nominal.

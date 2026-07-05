@@ -1,0 +1,32 @@
+{
+  "schema": "hal.yieldos.semiconductor.workload_roles.v1",
+  "workloads": [
+    {
+      "workload_id": "wl_001",
+      "role": "high_speed_compute",
+      "criticality": "high",
+      "compute_required": 4,
+      "latency_sensitivity": 0.95,
+      "reliability_required": 0.98
+    },
+    {
+      "workload_id": "wl_002",
+      "role": "low_power_compute",
+      "criticality": "medium",
+      "compute_required": 2,
+      "latency_sensitivity": 0.50,
+      "reliability_required": 0.85
+    },
+    {
+      "workload_id": "wl_003",
+      "role": "background_diagnostics",
+      "criticality": "low",
+      "compute_required": 1,
+      "latency_sensitivity": 0.20,
+      "reliability_required": 0.75
+    }
+  ],
+  "hardware_control_enabled": false,
+  "human_review_required": true,
+  "claim_boundary": "candidate_workload_roles_not_runtime_schedule"
+}

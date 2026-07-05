@@ -1,0 +1,13 @@
+{
+  "asset_id": "crossbar_64x64_ReRAM",
+  "array_rows": 64,
+  "array_cols": 64,
+  "defect_rate": 0.12,
+  "defect_distribution": "clustered",
+  "clustering_factor": 3.0,
+  "baseline_accuracy": 0.92,
+  "c_fab": 1.0,
+  "c_ctrl": 0.15,
+  "c_rec": 0.10,
+  "notes": "ReRAM crossbar 64x64, 12% defect rate (clustered), functional yield simulation"
+}

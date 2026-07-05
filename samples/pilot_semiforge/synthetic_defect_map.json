@@ -1,0 +1,21 @@
+{
+  "schema": "hal.yieldos.pilot.semiforge.defect_map.v1",
+  "wafer_id": "SYNTHETIC_WAFER_001",
+  "die_count": 100,
+  "defect_density_per_cm2": 0.15,
+  "simulation_seed": 42,
+  "defect_map": [
+    {"die_id": 0, "defect_count": 0, "defect_types": [], "functional": true},
+    {"die_id": 1, "defect_count": 1, "defect_types": ["particle"], "functional": true},
+    {"die_id": 2, "defect_count": 0, "defect_types": [], "functional": true},
+    {"die_id": 3, "defect_count": 2, "defect_types": ["particle", "scratch"], "functional": false},
+    {"die_id": 4, "defect_count": 0, "defect_types": [], "functional": true},
+    {"die_id": 5, "defect_count": 1, "defect_types": ["particle"], "functional": true},
+    {"die_id": 6, "defect_count": 0, "defect_types": [], "functional": true},
+    {"die_id": 7, "defect_count": 3, "defect_types": ["particle", "particle", "void"], "functional": false},
+    {"die_id": 8, "defect_count": 0, "defect_types": [], "functional": true},
+    {"die_id": 9, "defect_count": 0, "defect_types": [], "functional": true},
+    {"die_id": 10, "defect_count": 1, "defect_types": ["scratch"], "functional": true}
+  ],
+  "notes": "Synthetic simulation data only. No real fab parameters embedded."
+}

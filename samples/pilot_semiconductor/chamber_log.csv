@@ -1,0 +1,11 @@
+timestamp,tool_id,chamber_id,step_id,chamber_state,maintenance_event,alarm_code,temperature_C,pressure_mTorr
+2024-03-01T07:00:00Z,tool_hash_001,chamber_hash_A,etch_001,ready,none,0,25.0,35
+2024-03-01T07:00:00Z,tool_hash_001,chamber_hash_B,etch_001,ready,none,0,25.0,35
+2024-03-01T08:50:00Z,tool_hash_002,chamber_hash_D,dep_001,degraded_candidate,none,1,385.5,19
+2024-03-01T10:00:00Z,tool_hash_001,chamber_hash_A,etch_002,ready,chamber_clean_completed,0,25.0,35
+2024-03-01T11:48:00Z,tool_hash_003,chamber_hash_F,cmp_001,fault_candidate,pressure_anomaly_detected,2,23.5,0
+2024-03-01T12:50:00Z,tool_hash_002,chamber_hash_D,dep_002,degraded_candidate,none,1,387.5,19
+2024-03-01T13:00:00Z,tool_hash_001,chamber_hash_A,etch_003,ready,none,0,25.0,35
+2024-03-01T13:00:00Z,tool_hash_001,chamber_hash_B,etch_003,ready,none,0,25.0,35
+2024-03-01T13:00:00Z,tool_hash_002,chamber_hash_C,dep_003,ready,none,0,380.0,18
+2024-03-01T14:00:00Z,tool_hash_003,chamber_hash_E,cmp_002,ready,none,0,22.0,0

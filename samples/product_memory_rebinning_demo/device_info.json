@@ -1,0 +1,17 @@
+{
+  "device_id": "NAND_DEMO_32GB_MLC",
+  "memory_type": "nand_mlc_simulated",
+  "raw_capacity_gb": 32.0,
+  "block_count": 128,
+  "block_size_gb": 0.25,
+  "ecc_policy": {
+    "corrected_error_warning_threshold": 100,
+    "uncorrectable_error_fail_threshold": 1
+  },
+  "endurance_policy": {
+    "pe_cycle_warning_ratio": 0.80
+  },
+  "retention_policy": {
+    "min_retention_hours": 72
+  }
+}

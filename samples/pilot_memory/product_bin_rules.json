@@ -1,0 +1,10 @@
+{
+  "schema": "hal.yieldos.demo.baseline_policy.v1",
+  "policy_name": "pilot_sample_baseline_v1",
+  "rules": {
+    "max_runtime_bad_blocks": 0,
+    "max_uncorrectable_error_blocks": 0,
+    "max_factory_bad_blocks": 5
+  },
+  "notes": "Sample pilot baseline policy for memory domain demonstration."
+}
