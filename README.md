@@ -2,7 +2,7 @@
 
 **Read-only Functional Yield Evidence Layer for imperfect industrial systems.**
 
-Version: **3.0.11** | [Release Notes](RELEASE_NOTES.md) | [Docs](docs/) | [License](LICENSE.txt)
+Version: **3.0.11** | [Release Notes](RELEASE_NOTES.md) | [Docs](docs/) | [License](LICENSE)
 
 ![PoC](https://img.shields.io/badge/status-PoC-blue)
 ![Read Only](https://img.shields.io/badge/mode-read--only-green)
@@ -10,7 +10,7 @@ Version: **3.0.11** | [Release Notes](RELEASE_NOTES.md) | [Docs](docs/) | [Licen
 ![Human Review Required](https://img.shields.io/badge/review-human--required-purple)
 ![No Hardware Control](https://img.shields.io/badge/hardware--control-none-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-Eval--Only-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
 [![tests](https://github.com/yoonsj0305/HAL-YieldOS/actions/workflows/tests.yml/badge.svg)](https://github.com/yoonsj0305/HAL-YieldOS/actions/workflows/tests.yml)
 
 ---
@@ -285,8 +285,8 @@ See [docs/KNOWN_LIMITATIONS.md](docs/KNOWN_LIMITATIONS.md) for the full list.
 
 ## License & Citation
 
-This software is released for evaluation and research purposes only.
-See [LICENSE.txt](LICENSE.txt) for terms.
+This project is licensed under the MIT License.
+See [LICENSE](LICENSE) for details.
 
 If you use HAL YieldOS in research or publications, please cite using [CITATION.cff](CITATION.cff).
 
